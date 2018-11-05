@@ -15,3 +15,17 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+/install/
+/files/
+/assets/
+/update/
+/app/config/config.php
+/app/config/database.php
+index.php
+/.idea/*
+*.log
+*.csv
+*.sql
+*.zip
+*.jar
+*.pdf
