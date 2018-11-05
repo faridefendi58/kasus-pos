@@ -1,0 +1,204 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+/*
+ * Module: Produks
+ * Language: Bahasa Indonesia
+ *
+ * Last edited:
+ * 1th Nov 2018
+ *
+ * Package:
+ * Stock Manage Advance v3.0
+ *
+ * You can translate this file to your language.
+ * For instruction on new language setup, please visit the documentations.
+ * You also can share your language files by emailing to saleem@tecdiary.com
+ * Thank you
+ */
+
+$lang['add_product']                        = "Tambah Produk";
+$lang['edit_product']                       = "Ubah Produk";
+$lang['delete_product']                     = "Hapus Produk";
+$lang['delete_products']                    = "Hapus Produks";
+$lang['product_added']                      = "Produk berhasil ditambahkan";
+$lang['product_updated']                    = "Produk berhasil diubah";
+$lang['product_deleted']                    = "Produk berhasil dihapus";
+$lang['products_deleted']                   = "Produk berhasil dihapus";
+$lang['alert_quantity']                     = "Peringatan Kuantitas";
+$lang['rack']                               = "Rak";
+$lang['set_rack']                           = "Set Rak";
+$lang['view_image']                         = "Lihat Gambar";
+$lang['add_damage_qty']                     = "Tambah Kuantitas Kerusakan";
+$lang['product_details']                    = "Rincian Produk";
+$lang['print_barcode']                      = "Cetak Barcode";
+$lang['print_label']                        = "Cetak Label";
+$lang['duplicate_product']                  = "Gandakan Produk";
+$lang['damage']                             = "Kerusakan";
+$lang['barcode_qrcode']                     = "Barcode &amp; QRcode";
+$lang['standard']                           = "Standard";
+$lang['subcategory']                        = "Sub Kategori";
+$lang['tax_rate']                           = "Tarif Pajak";
+$lang['tax_method']                         = "Metode Pajak";
+$lang['inclusive']                          = "Inklusif";
+$lang['barcode']                            = "Barcode";
+$lang['label']                              = "Label";
+$lang['exclusive']                          = "Ekslusif";
+$lang['option']                             = "Pilihan";
+$lang['barcode_label']                      = "Barcode/Label";
+$lang['barcode_sheet']                      = "Barcode Sheet";
+$lang['product_image']                      = "Gambar Produk";
+$lang['digital_file']                       = "Dokumen Digital";
+$lang['select_category_to_load']            = "Silakan pilih kategori untuk dimuat";
+$lang['select_subcategory']                 = "Silakan pilih sub kategori";
+$lang['combo']                              = "Combo";
+$lang['digital']                            = "Digital";
+$lang['service']                            = "Layanan";
+$lang['you_scan_your_barcode_too']          = "Anda dapat memindai barcode Anda dan memilih simbologi yang benar di bawah ini";
+$lang['supplier_price']                     = "Harga Suplier";
+$lang['warehouse_quantity']                 = "Kuantitas Warehouse";
+$lang['cost']                               = "Biaya";
+$lang['price']                              = "Harga";
+$lang['please_add_items_below']             = "Silakan tambahkan item di bawah ini";
+$lang['add_item']                           = "Tambah Item";
+$lang['combo_products']                     = "Combo Produk";
+$lang['custom_fields']                      = "Custom Field";
+$lang['product_details_for_invoice']        = "Rincian produk untuk faktur";
+$lang['no_product_found']                   = "Produk tidak ditemukan";
+$lang['max_reached']                        = "Mencapai Max yang diperbolehkan";
+$lang['file_size_exceed']                   = "Ukuran file terlampaui";
+$lang['add_product_manually']               = "Tambah product secara manual";
+$lang['edit_quantity_not_recommended_here'] = "Mengedit kuantitas gudang di sini tidak disarankan karena ini dapat menyebabkan masalah terkait akuntansi persediaan. Harap tambahkan penjualan atau pembelian palsu untuk menetapkan jumlah gudang yang tepat dan itu tidak akan membuat masalah akuntansi inventaris.";
+$lang['go_back']                            = "Kembali";
+$lang['empty_category']                     = "Kategori yang dipilih kosong";
+$lang['import_products_by_csv']             = "Tambah/Ubah dari CSV";
+$lang['category_code']                      = "Kode Kategori";
+$lang['subcategory_code']                   = "Kode Sub kategori";
+$lang['update_price_csv']                   = "Update harga produk dari CSV";
+$lang['delete_damage_product']              = "Hapus Kerusakan Produk";
+$lang['edit_damage_details']                = "Ubah Rincian Kerusakan";
+$lang['damage_quantity']                    = "Kuantitas Kerusakan";
+$lang['add_damage_product']                 = "Tambah Kerusakan Produk";
+$lang['add_damage']                         = "Tambah Kerusakan";
+$lang['warehouse_qty_is_less_than_damage']  = "Kuantitas warehouse/gudang lebih kecil dari kuantitas yang rusak";
+$lang['warehouse_option_qty_is_less_than_damage'] = "Kuantitas varian produk di gudang terpilih kurang dari kuantitas yang rusak";
+$lang['damage_product_added']               = "Rincian kerusakan berhasil ditambahkan";
+$lang['damage_product_updated']             = "Rincian kerusakan berhasil diubah";
+$lang['damage_product_deleted']             = "Rincian kerusakan berhasil dihapus";
+$lang['edit_damage']                        = "Ubah rncian kerusakan";
+$lang['check_product_code']                 = "Silakan cek kode produk";
+
+$lang['code_x_exist']                       = "Kode Produk tidak ada.";
+$lang['line_no']                            = "No Baris";
+$lang['price_updated']                      = "Harga Produk berhasil diubah";
+$lang['code_already_exist']                 = "Kode Produk sudah ada.";
+$lang['check_category_code']                = "Silakan cek kode kategori";
+$lang['category_code_x_exist']              = "Kode kategori tidak ada.";
+$lang['products_added']                     = "Produk (%d) berhasil ditambahkan";
+$lang['product_has_attributes']             = "Produk ini memiliki beberapa varian";
+$lang['eg_sizes_colors']                    = "misalnya Beberapa Ukuran dan / atau Warna";
+$lang['enter_attributes']                   = "Masukkan varian dipisahkan oleh koma";
+$lang['product_type']                       = "Jenis Produk";
+$lang['warehouse_quanitty']                 = "Jumlah Warehouse";
+$lang['product_gallery_images']             = "Gambar Galeri Produk";
+$lang['no_product_selected']                = "Tidak ada produk yang dipilih. Harap pilih setidaknya satu produk.";
+$lang['rack_location']                      = "Lokasi Rak";
+$lang['rack_set']                           = "Rak Produk berhasil diubah";
+$lang['product_variants_quantity']          = "Kuantitas Warehouse varian produk";
+$lang['warehouse_name']                     = "Nama Warehouse";
+$lang['custom_field']                       = "Custom Field";
+$lang['no_qty_in_warehouse']                = "Warehouse tidak memiliki produk ini";
+$lang['product_variants']                   = "Produk Varian";
+$lang['wh_pr_qty_issue']                    = "<strong> Permintaan Gagal! </strong> Gudang dan variasi varian produk berbeda. Silakan tentukan jumlah yang tepat untuk gudang dan varian produk.";
+$lang['purchases']                          = "Pembelian";
+$lang['damages']                            = "Kerusakan";
+$lang['returns']                            = "Retur";
+$lang['product_qty']                        = "Produk (Qty)";
+$lang['sale_reference']                     = "Referensi Penjualan";
+$lang['product_variants_sep_by']            = "Variasi Produk dipisahkan oleh bar vertikal <strong> | </strong>";
+$lang['not_with_variants']                  = "Produk tanpa varian";
+$lang['pprice_not_match_ciprice']           = "Harga produk tidak sesuai dengan harga kombo";
+$lang['addition']                           = "Penambahan";
+$lang['subtraction']                        = "Pengurangan";
+$lang['quantity_adjusted']                  = "Jumlah Produk berhasil disesuaikan";
+$lang['adjustment_deleted']                 = "Jumlah Produk penyesuaian berhasil dihapus";
+$lang['quantity_x_adjuste']                 = "Jumlah Produk tidak dapat disesuaikan. Anda dapat menyesuaikan kuantitas produk standar saja";
+$lang['label_printer']                      = "Label Printer";
+$lang['product_already_has_variant']        = "Produk telah memiliki varian";
+$lang['sync_quantity']                       = "Sync Quantity";
+$lang['products_quantity_sync']             = "Jumlah Produk berhasil disinkronisasi";
+$lang['update_variants']                    = "Ubah varian produk";
+$lang['add_more_variants']                  = "Tambah lagi varian produk";
+$lang['quantity_x_adjusted']                = "Jumlah Produk tidak dapat disesuaikan karena tidak ditemukan catatan item yang dibeli. Harap tambahkan pembelian terlebih dahulu";
+$lang['style']                              = "Style";
+$lang['30_per_sheet']                       = "30 per sheet (2.625\" x 1\")";
+$lang['20_per_sheet']                       = "20 per sheet (4\" x 1\")";
+$lang['14_per_sheet']                       = "14 per sheet (4\" x 1.33\")";
+$lang['10_per_sheet']                       = "10 per sheet (4\" x 2\")";
+$lang['continuous_feed']                    = "Continuous feed";
+$lang['no_image_selected']                  = "Gambar Produk tidak terpilih";
+$lang['image_deleted']                      = "Gambar Produk berhasil dihapus";
+$lang['40_per_sheet']                       = "40 per sheet (a4) (1.799\" x 1.003\")";
+$lang['24_per_sheet']                       = "24 per sheet (a4) (2.48\" x 1.334\")";
+$lang['18_per_sheet']                       = "18 per sheet (a4) (2.5\" x 1.835\")";
+$lang['12_per_sheet']                       = "12 per sheet (a4) (2.5\" x 2.834\")";
+$lang['select_category']                    = "Pilih Kategori";
+$lang['or_select_category']                 = "<strong>ATAU</strong><br>Pilih kuantitas dan kategori untuk menambahkan semua produk kategori";
+$lang['print_barcode_heading']              = "Anda dapat mengunjungi %s,%s,%s dan %s untuk menambahkan produk ke daftar pencetakan ini.";
+$lang['barcode_tip']                        = "Harap jangan lupa untuk mengatur ukuran dan margin halaman yang benar untuk printer Anda. Anda dapat mengatur kanan dan bawah ke 0 sementara margin kiri dan atas dapat disesuaikan sesuai dengan kebutuhan Anda.";
+$lang['width']                              = "Lebar";
+$lang['height']                             = "Tinggi";
+$lang['inches']                             = "Inches";
+$lang['orientation']                        = "Orientation";
+$lang['portrait']                           = "Portrait";
+$lang['landscape']                          = "Landscape";
+$lang['promotion']                          = "Promotion";
+$lang['set_promotion']                      = "Set Promotion";
+$lang['promo_price']                        = "Promotion Price";
+$lang['start_date']                         = "Tanggal Mulai";
+$lang['end_date']                           = "Tanggal Selesai";
+$lang['save_image']                         = "Simpan Gambar";
+$lang['edit_adjustment']                    = "Ubah Penyesuaian";
+$lang['delete_adjustment']                  = "Hapus Penyesuaian";
+$lang['unit_code']                          = "Unit Code";
+$lang['price_addition']                     = "Penambahan Harga";
+$lang['default_sale_unit']                  = "Default Satuan Penjualan";
+$lang['default_purchase_unit']              = "Default Satuan Pembelian";
+$lang['select_unit_first']                  = "Silakan pilih satuan terlebih dahulu";
+$lang['check_unit']                         = "Silakan cek kode satuan";
+$lang['unit_code_x_exist']                  = "Kode satuan tidak ditemukan.";
+$lang['variant']                            = "Varian";
+$lang['details']                            = "Rincian";
+$lang['stock_count']                        = "Penghitungan Stok";
+$lang['stock_counts']                       = "Penghitungan Stok";
+$lang['download_csv_file']                  = "Unduh dokumen CSV dari stok terkini";
+$lang['full']                               = "Semua";
+$lang['expected']                           = "Diharapkan";
+$lang['counted']                            = "Terhitung";
+$lang['stock_count_tip']                    = "Anda hanya perlu memperbarui kolom TERHITUNG dalam file csv yang diunduh.";
+$lang['please_select_type']                 = "Silakan pilih tipe hitung (Semua / Sebagian) untuk menghasilkan file csv.";
+$lang['stock_count_intiated']               = "Penghitungan Stok Ter-inisiasi, silakan unduh dan lengkapi file csv untuk diselesaikan.";
+$lang['product_added_to_list']              = "Produk ditambahkan ke daftar pencetakan barcode";
+$lang['products_added_to_list']             = "Produk ditambahkan ke daftar pencetakan barcode";
+$lang['finalize_count']                     = "Finalisasi Penghitungan Stok";
+$lang['stock_count_finalized']              = "Penghitungan stok telah diselesaikan";
+$lang['difference']                         = "Perbedaan";
+$lang['differences']                        = "Perbedaan";
+$lang['files']                              = "Dokumen";
+$lang['initial_file']                       = "Dokumen Awal";
+$lang['final_file']                         = "Dokumen Akhir";
+$lang['view_adjustment']                    = "Lihat Penyesuaian";
+$lang['add_adjustment_by_csv']              = "Tambah Penyesuaian denagn CSV";
+$lang['quantity_colum_tip']                 = "Harap tetapkan jumlah dalam negatif (-1) untuk pengurangan dan positif (1) untuk penambahan. Kolom varian bersifat opsional";
+$lang['check_promo']                        = "Periksa harga promosi";
+$lang['file_link']                          = "Dokumen Link/URL";
+$lang['weight']                             = "Berat (kg)";
+$lang['featured']                           = "Unggulan (Direktori beranda toko)";
+$lang['no_mismatch_found']                  = "Stok itu sama seperti per sistem.";
+$lang['hide_in_shop']                       = "Sembunyikan di Modul Toko";
+$lang['shop_views']                         = "Shop Views";
+$lang['combo_items']                        = "Combo Items";
+$lang['second_name']                        = "Nama Sekunder";
+$lang['csv_issue']                          = "Tidak ada produk yang diimpor dan diperbarui. Harap periksa file csv Anda lagi seperti yang disebutkan di atas bidang unggahan.";
+$lang['products_updated']                   = "Produk (%d) berhasil diubah";
+$lang['csv_update_tip']                     = "Sistem akan memeriksa apakah kode milik produk apa pun kemudian akan memperbarui produk itu jika tidak akan menambah produk baru.";
+
